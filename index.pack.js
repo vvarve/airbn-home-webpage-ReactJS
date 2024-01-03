@@ -264,9 +264,9 @@ process.umask = function() { return 0; };
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(10);
+  module.exports = __webpack_require__(13);
 } else {
-  module.exports = __webpack_require__(9);
+  module.exports = __webpack_require__(12);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -376,9 +376,9 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(14);
+  module.exports = __webpack_require__(17);
 } else {
-  module.exports = __webpack_require__(13);
+  module.exports = __webpack_require__(16);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -399,11 +399,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Navbar = __webpack_require__(16);
+var _Navbar = __webpack_require__(9);
 
-var _Bodyhead = __webpack_require__(17);
+var _Bodyhead = __webpack_require__(8);
 
-var _Bodybuttom = __webpack_require__(18);
+var _Bodybuttom = __webpack_require__(7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -456,9 +456,9 @@ if (process.env.NODE_ENV === 'production') {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(8);
+  module.exports = __webpack_require__(11);
 } else {
-  module.exports = __webpack_require__(7);
+  module.exports = __webpack_require__(10);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -491,6 +491,194 @@ _reactDom2.default.render(_react2.default.createElement(_App2.default, null), do
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Bodybuttom = undefined;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Bodybuttom = exports.Bodybuttom = function Bodybuttom() {
+    return _react2.default.createElement(
+        "div",
+        null,
+        _react2.default.createElement(
+            "div",
+            { className: "div-Bodybuttom" },
+            _react2.default.createElement("img", { src: "../images/1.png" }),
+            _react2.default.createElement("img", { src: "../images/2.png" }),
+            _react2.default.createElement("img", { src: "../images/3.png" })
+        ),
+        _react2.default.createElement(
+            "div",
+            { className: "div-Bodybuttom-inside" },
+            _react2.default.createElement(
+                "div",
+                { className: "div-Bodybuttom-inside1" },
+                _react2.default.createElement("img", { src: "../images/star.png" }),
+                _react2.default.createElement(
+                    "strong",
+                    { className: "rating" },
+                    "5.0 "
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "p-div-Bodybuttom" },
+                    "  (6) \u2022 USA"
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "p-div-Bodybuttom2" },
+                    " Life lessons with Katie Zaferes"
+                ),
+                _react2.default.createElement(
+                    "strong",
+                    { className: "p-price" },
+                    "From $136"
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "p-person" },
+                    "/ person"
+                )
+            ),
+            _react2.default.createElement(
+                "div",
+                { className: "div-Bodybuttom-inside2" },
+                _react2.default.createElement("img", { src: "../images/star.png" }),
+                _react2.default.createElement(
+                    "strong",
+                    { className: "rating" },
+                    "5.0 "
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "p-div-Bodybuttom" },
+                    "  (30) \u2022 USA"
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "p-div-Bodybuttom2" },
+                    "Learn wedding photography"
+                ),
+                _react2.default.createElement(
+                    "strong",
+                    { className: "p-price" },
+                    "From $125"
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "p-person" },
+                    "/ person"
+                )
+            ),
+            _react2.default.createElement(
+                "div",
+                { className: "div-Bodybuttom-inside3" },
+                _react2.default.createElement("img", { src: "../images/star.png" }),
+                _react2.default.createElement(
+                    "strong",
+                    { className: "rating" },
+                    "4.8 "
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "p-div-Bodybuttom" },
+                    "  (2) \u2022 USA"
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "p-div-Bodybuttom2" },
+                    "Group Mountain Biking"
+                ),
+                _react2.default.createElement(
+                    "strong",
+                    { className: "p-price" },
+                    "From $50"
+                ),
+                _react2.default.createElement(
+                    "p",
+                    { className: "p-person" },
+                    "/ person"
+                )
+            )
+        )
+    );
+};
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Bodyhead = undefined;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Bodyhead = exports.Bodyhead = function Bodyhead() {
+    return _react2.default.createElement(
+        "div",
+        { className: "div-Bodyhead" },
+        _react2.default.createElement("img", { src: "../images/photo-grid.png" }),
+        _react2.default.createElement(
+            "h1",
+            null,
+            "Online Experiences"
+        ),
+        _react2.default.createElement(
+            "p",
+            null,
+            "Join unique interactive activities led by one-of-a-kind hosts\u2014all without leaving home."
+        )
+    );
+};
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Navbar = undefined;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Navbar = exports.Navbar = function Navbar() {
+    return _react2.default.createElement(
+        "nav",
+        null,
+        _react2.default.createElement("img", { src: "../images/airbnb-logo.png" })
+    );
+};
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/** @license React v17.0.2
  * react-dom.development.js
  *
@@ -509,7 +697,7 @@ if (process.env.NODE_ENV !== "production") {
 var React = __webpack_require__(1);
 var _assign = __webpack_require__(2);
 var Scheduler = __webpack_require__(3);
-var tracing = __webpack_require__(15);
+var tracing = __webpack_require__(18);
 
 var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 
@@ -26757,7 +26945,7 @@ exports.version = ReactVersion;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 8 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27061,7 +27249,7 @@ exports.unstable_renderSubtreeIntoContainer=function(a,b,c,d){if(!rk(c))throw Er
 
 
 /***/ }),
-/* 9 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29402,7 +29590,7 @@ exports.version = ReactVersion;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 10 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29432,7 +29620,7 @@ exports.useLayoutEffect=function(a,b){return S().useLayoutEffect(a,b)};exports.u
 
 
 /***/ }),
-/* 11 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29787,7 +29975,7 @@ exports.unstable_wrap = unstable_wrap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 12 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29803,7 +29991,7 @@ var b=0;exports.__interactionsRef=null;exports.__subscriberRef=null;exports.unst
 
 
 /***/ }),
-/* 13 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30457,7 +30645,7 @@ exports.unstable_wrapCallback = unstable_wrapCallback;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 14 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30484,207 +30672,19 @@ exports.unstable_wrapCallback=function(a){var b=P;return function(){var c=P;P=b;
 
 
 /***/ }),
-/* 15 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(12);
+  module.exports = __webpack_require__(15);
 } else {
-  module.exports = __webpack_require__(11);
+  module.exports = __webpack_require__(14);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.Navbar = undefined;
-
-var _react = __webpack_require__(1);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Navbar = exports.Navbar = function Navbar() {
-    return _react2.default.createElement(
-        "nav",
-        null,
-        _react2.default.createElement("img", { src: "../images/airbnb-logo.png" })
-    );
-};
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.Bodyhead = undefined;
-
-var _react = __webpack_require__(1);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Bodyhead = exports.Bodyhead = function Bodyhead() {
-    return _react2.default.createElement(
-        "div",
-        { className: "div-Bodyhead" },
-        _react2.default.createElement("img", { src: "../images/photo-grid.png" }),
-        _react2.default.createElement(
-            "h1",
-            null,
-            "Online Experiences"
-        ),
-        _react2.default.createElement(
-            "p",
-            null,
-            "Join unique interactive activities led by one-of-a-kind hosts\u2014all without leaving home."
-        )
-    );
-};
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.Bodybuttom = undefined;
-
-var _react = __webpack_require__(1);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Bodybuttom = exports.Bodybuttom = function Bodybuttom() {
-    return _react2.default.createElement(
-        "div",
-        null,
-        _react2.default.createElement(
-            "div",
-            { className: "div-Bodybuttom" },
-            _react2.default.createElement("img", { src: "../images/1.png" }),
-            _react2.default.createElement("img", { src: "../images/2.png" }),
-            _react2.default.createElement("img", { src: "../images/3.png" })
-        ),
-        _react2.default.createElement(
-            "div",
-            { className: "div-Bodybuttom-inside" },
-            _react2.default.createElement(
-                "div",
-                { className: "div-Bodybuttom-inside1" },
-                _react2.default.createElement("img", { src: "../images/star.png" }),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "rating" },
-                    "5.0 "
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom" },
-                    "  (6) \u2022 USA"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom2" },
-                    " Life lessons with Katie Zaferes"
-                ),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "p-price" },
-                    "From $136"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-person" },
-                    "/ person"
-                )
-            ),
-            _react2.default.createElement(
-                "div",
-                { className: "div-Bodybuttom-inside2" },
-                _react2.default.createElement("img", { src: "../images/star.png" }),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "rating" },
-                    "5.0 "
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom" },
-                    "  (30) \u2022 USA"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom2" },
-                    "Learn wedding photography"
-                ),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "p-price" },
-                    "From $125"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-person" },
-                    "/ person"
-                )
-            ),
-            _react2.default.createElement(
-                "div",
-                { className: "div-Bodybuttom-inside3" },
-                _react2.default.createElement("img", { src: "../images/star.png" }),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "rating" },
-                    "4.8 "
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom" },
-                    "  (2) \u2022 USA"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom2" },
-                    "Group Mountain Biking"
-                ),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "p-price" },
-                    "From $50"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-person" },
-                    "/ person"
-                )
-            )
-        )
-    );
-};
 
 /***/ })
 /******/ ]);

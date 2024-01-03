@@ -56,6 +56,8 @@ nav {
 
 .div-Bodybuttom-inside img {
     display: inline-block;
+    width: 24px;
+    height: 18px;
 }
 
 .div-Bodybuttom-inside strong {
