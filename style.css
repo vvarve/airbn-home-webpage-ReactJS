@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rock+Salt&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    padding: 2%;
+    box-shadow: 0px 0.5px 30px rgb(192, 192, 192);
+}
+
+.div-Bodyhead {
+
+    padding: 8%;
+}
+
+.div-Bodyhead img {
+    height: 100%;
+    width: 100%;
+}
+
+.div-Bodyhead h1{
+    font-size: 70px;
+}
+
+.div-Bodyhead p{
+    margin: 0;
+    font-size: 30px;
+    text-align: left;
+    width: 800px;
+}
+
+.div-Bodybuttom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: fit-content;
+    padding: 3%;
+    padding-bottom: 1%;
+}
+
+.div-Bodybuttom img {
+    width: 400px;
+    height: 500px;
+}
+
+.div-Bodybuttom-inside{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3%;
+    padding-top: 0;
+    margin: auto;
+}
+
+.div-Bodybuttom-inside img {
+    display: inline-block;
+}
+
+.div-Bodybuttom-inside strong {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.div-Bodybuttom-inside .p-div-Bodybuttom{
+    color: rgb(124, 124, 124);
+    display: inline-block;
+    margin: 0;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.div-Bodybuttom-inside .p-div-Bodybuttom2 {
+    font-size: 24px;
+}
+
+.div-Bodybuttom-inside .p-price {
+    font-size: 24px;
+    margin: 0;
+}
+
+.div-Bodybuttom-inside .p-person {
+    margin: 0;
+    width: 100px;
+    display: inline;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+
