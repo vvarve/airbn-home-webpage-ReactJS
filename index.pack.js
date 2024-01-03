@@ -413,7 +413,39 @@ function App() {
         null,
         _react2.default.createElement(_Navbar.Navbar, null),
         _react2.default.createElement(_Bodyhead.Bodyhead, null),
-        _react2.default.createElement(_Bodybuttom.Bodybuttom, null)
+        _react2.default.createElement(
+            "div",
+            { className: "div-Bodybuttom-principal" },
+            _react2.default.createElement(_Bodybuttom.Bodybuttom, {
+                image: "./images/1.png",
+                stock: "sold out",
+                star: "./images/star.png",
+                rating: "5.0",
+                ubication: "(06) • USA",
+                textOne: "Life lessons with Katie Zaferes",
+                textTwo: "From $50",
+                textPerson: "/ person"
+            }),
+            _react2.default.createElement(_Bodybuttom.Bodybuttom, {
+                image: "./images/2.png",
+                stock: "online",
+                star: "./images/star.png",
+                rating: "5.0",
+                ubication: "(06) • USA",
+                textOne: "Life lessons with Katie Zaferes",
+                textTwo: "From $50",
+                textPerson: "/ person"
+            }),
+            _react2.default.createElement(_Bodybuttom.Bodybuttom, {
+                image: "./images/3.png",
+                star: "./images/star.png",
+                rating: "5.0",
+                ubication: "(06) • USA",
+                textOne: "Life lessons with Katie Zaferes",
+                textTwo: "From $50",
+                textPerson: "/ person"
+            })
+        )
     );
 }
 
@@ -504,16 +536,24 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Bodybuttom = exports.Bodybuttom = function Bodybuttom() {
+var Bodybuttom = exports.Bodybuttom = function Bodybuttom(_ref) {
+    var image = _ref.image,
+        star = _ref.star,
+        rating = _ref.rating,
+        ubication = _ref.ubication,
+        textOne = _ref.textOne,
+        textTwo = _ref.textTwo,
+        textPerson = _ref.textPerson,
+        stock = _ref.stock;
+
     return _react2.default.createElement(
         "div",
         null,
+        _react2.default.createElement("img", { className: "images-card", src: image }),
         _react2.default.createElement(
-            "div",
-            { className: "div-Bodybuttom" },
-            _react2.default.createElement("img", { src: "../images/1.png" }),
-            _react2.default.createElement("img", { src: "../images/2.png" }),
-            _react2.default.createElement("img", { src: "../images/3.png" })
+            "span",
+            { className: "span-image" },
+            stock
         ),
         _react2.default.createElement(
             "div",
@@ -521,91 +561,32 @@ var Bodybuttom = exports.Bodybuttom = function Bodybuttom() {
             _react2.default.createElement(
                 "div",
                 { className: "div-Bodybuttom-inside1" },
-                _react2.default.createElement("img", { src: "../images/star.png" }),
+                _react2.default.createElement("img", { src: star }),
                 _react2.default.createElement(
                     "strong",
                     { className: "rating" },
-                    "5.0 "
+                    rating,
+                    " "
                 ),
                 _react2.default.createElement(
                     "p",
                     { className: "p-div-Bodybuttom" },
-                    "  (6) \u2022 USA"
+                    ubication
                 ),
                 _react2.default.createElement(
                     "p",
                     { className: "p-div-Bodybuttom2" },
-                    " Life lessons with Katie Zaferes"
+                    textOne
                 ),
                 _react2.default.createElement(
                     "strong",
                     { className: "p-price" },
-                    "From $136"
+                    textTwo
                 ),
                 _react2.default.createElement(
                     "p",
                     { className: "p-person" },
-                    "/ person"
-                )
-            ),
-            _react2.default.createElement(
-                "div",
-                { className: "div-Bodybuttom-inside2" },
-                _react2.default.createElement("img", { src: "../images/star.png" }),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "rating" },
-                    "5.0 "
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom" },
-                    "  (30) \u2022 USA"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom2" },
-                    "Learn wedding photography"
-                ),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "p-price" },
-                    "From $125"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-person" },
-                    "/ person"
-                )
-            ),
-            _react2.default.createElement(
-                "div",
-                { className: "div-Bodybuttom-inside3" },
-                _react2.default.createElement("img", { src: "../images/star.png" }),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "rating" },
-                    "4.8 "
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom" },
-                    "  (2) \u2022 USA"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-div-Bodybuttom2" },
-                    "Group Mountain Biking"
-                ),
-                _react2.default.createElement(
-                    "strong",
-                    { className: "p-price" },
-                    "From $50"
-                ),
-                _react2.default.createElement(
-                    "p",
-                    { className: "p-person" },
-                    "/ person"
+                    textPerson
                 )
             )
         )

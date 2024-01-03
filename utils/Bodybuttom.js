@@ -1,41 +1,21 @@
 import React from "react";
 
-export const Bodybuttom = () => {
+export const Bodybuttom = ({image, star, rating, ubication, textOne, textTwo, textPerson, stock}) => {
     return (
         <div>
-            <div className="div-Bodybuttom">
-                <img src="../images/1.png"></img>
-                
-                <img src="../images/2.png"></img>
-                
-                <img src="../images/3.png"></img>
-            </div>
+                <img className="images-card" src={image}></img>
+                <span className="span-image">{stock}</span>
             <div className="div-Bodybuttom-inside">
                 <div className="div-Bodybuttom-inside1">
-                    <img src="../images/star.png"></img>
-                    <strong className="rating">5.0 </strong>
-                    <p className="p-div-Bodybuttom">  (6) • USA</p>
-                    <p className="p-div-Bodybuttom2"> Life lessons with Katie Zaferes</p>
-                    <strong className="p-price">From $136</strong>
-                    <p className="p-person">/ person</p>
-                </div>
-                <div className="div-Bodybuttom-inside2">
-                    <img src="../images/star.png"></img>
-                    <strong className="rating">5.0 </strong>
-                    <p className="p-div-Bodybuttom">  (30) • USA</p>
-                    <p className="p-div-Bodybuttom2">Learn wedding photography</p>
-                    <strong className="p-price">From $125</strong>
-                    <p className="p-person">/ person</p>
-                </div>
-                <div className="div-Bodybuttom-inside3">
-                    <img src="../images/star.png"></img>
-                    <strong className="rating">4.8 </strong>
-                    <p className="p-div-Bodybuttom">  (2) • USA</p>
-                    <p className="p-div-Bodybuttom2">Group Mountain Biking</p>
-                    <strong className="p-price">From $50</strong>
-                    <p className="p-person">/ person</p>
-                </div>
+                    <img src={star}></img>
+                    <strong className="rating">{rating} </strong>
+                    <p className="p-div-Bodybuttom">{ubication}</p>
+                    <p className="p-div-Bodybuttom2">{textOne}</p>
+                    <strong className="p-price">{textTwo}</strong>
+                    <p className="p-person">{textPerson}</p>
+                </div>    
             </div>
+
         </div>
     )
 }
