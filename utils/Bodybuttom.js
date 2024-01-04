@@ -4,7 +4,7 @@ export const Bodybuttom = ({image, star, rating, ubication, textOne, textTwo, te
     return (
         <div>
                 <img className="images-card" src={image}></img>
-                <span className="span-image">{stock}</span>
+                {stock && <span className="span-image">{stock}</span>}
             <div className="div-Bodybuttom-inside">
                 <div className="div-Bodybuttom-inside1">
                     <img src={star}></img>

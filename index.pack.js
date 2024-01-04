@@ -550,7 +550,7 @@ var Bodybuttom = exports.Bodybuttom = function Bodybuttom(_ref) {
         "div",
         null,
         _react2.default.createElement("img", { className: "images-card", src: image }),
-        _react2.default.createElement(
+        stock && _react2.default.createElement(
             "span",
             { className: "span-image" },
             stock
