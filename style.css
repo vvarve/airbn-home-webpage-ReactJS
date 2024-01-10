@@ -50,13 +50,13 @@ nav {
 .div-Bodybuttom-principal {
     padding: 2%;
     display: grid;
-    grid-template-columns: minmax(1fr, 3fr);
+    column-gap: 12%;
+    row-gap: 2%;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
     margin-bottom: 20%;
 }
 
-.div-image-principal2 {
-    grid-row: 1;
-}
 
 .div-image {
     position: relative;
@@ -70,9 +70,7 @@ nav {
     height: 500px;
 }
 
-.div-Bodybuttom-inside{
-    grid-row: 2;
-}
+
 
 .div-Bodybuttom-inside strong {
     display: inline-block;
