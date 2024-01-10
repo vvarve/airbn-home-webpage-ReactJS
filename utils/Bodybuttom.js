@@ -2,9 +2,11 @@ import React from "react";
 
 export const Bodybuttom = ({image, star, rating, ubication, textOne, textTwo, textPerson, stock}) => {
     return (
-        <div>
-                <img className="images-card" src={image}></img>
-                {stock && <span className="span-image">{stock}</span>}
+        <div className="div-image-principal2">   
+                <div className="div-image">
+                    <img className="images-card" src={image}></img>
+                    {stock && <span className="span-image">{stock}</span>}
+                </div>
             <div className="div-Bodybuttom-inside">
                 <div className="div-Bodybuttom-inside1">
                     <img src={star}></img>

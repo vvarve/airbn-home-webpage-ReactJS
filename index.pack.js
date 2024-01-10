@@ -444,6 +444,15 @@ function App() {
                 textOne: "Life lessons with Katie Zaferes",
                 textTwo: "From $50",
                 textPerson: "/ person"
+            }),
+            _react2.default.createElement(_Bodybuttom.Bodybuttom, {
+                image: "./images/3.png",
+                star: "./images/star.png",
+                rating: "5.0",
+                ubication: "(06) • USA",
+                textOne: "Life lessons with Katie Zaferes",
+                textTwo: "From $50",
+                textPerson: "/ person"
             })
         )
     );
@@ -548,12 +557,16 @@ var Bodybuttom = exports.Bodybuttom = function Bodybuttom(_ref) {
 
     return _react2.default.createElement(
         "div",
-        null,
-        _react2.default.createElement("img", { className: "images-card", src: image }),
-        stock && _react2.default.createElement(
-            "span",
-            { className: "span-image" },
-            stock
+        { className: "div-image-principal2" },
+        _react2.default.createElement(
+            "div",
+            { className: "div-image" },
+            _react2.default.createElement("img", { className: "images-card", src: image }),
+            stock && _react2.default.createElement(
+                "span",
+                { className: "span-image" },
+                stock
+            )
         ),
         _react2.default.createElement(
             "div",

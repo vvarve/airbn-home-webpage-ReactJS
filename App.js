@@ -39,6 +39,15 @@ export default function App() {
                 textTwo={"From $50"}
                 textPerson={"/ person"}
                 />
+                <Bodybuttom 
+                image={"./images/3.png"}
+                star={"./images/star.png"} 
+                rating={"5.0"} 
+                ubication={"(06) • USA"}
+                textOne={"Life lessons with Katie Zaferes"}
+                textTwo={"From $50"}
+                textPerson={"/ person"}
+                />
             </div>
         </div>
     )
